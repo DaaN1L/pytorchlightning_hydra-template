@@ -1,0 +1,10 @@
+# @package _group_
+image_folder: /path/to/your/image
+train_path: /path/to/your/csvs/train.csv
+valid_path: /path/to/your/csvs/val_filtered.csv
+test_path: /path/to/your/csvs//test.csv
+tb_viz_path: D:\Projects\ml-simulations\conf\data
+num_workers: 8
+batch_size: 64
+height: 32
+width: 128

@@ -1,0 +1,17 @@
+defaults:
+  - dataset: some_dataset
+  - trainer: default_trainer
+  - training: default_training
+  - loss: bce_loss
+  - optimizer: adamw
+  - scheduler: plateau
+  - model: resnet18
+  - callbacks: callbacks
+  - data: data
+  - augmentation: stronger_augs
+
+general:
+  model_name: ${model.backbone.name}
+  save_dir: runs/
+  workspace: Danil
+  project_name: ml_simulations

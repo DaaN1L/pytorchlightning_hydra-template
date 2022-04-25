@@ -1,0 +1,8 @@
+# @package _group_
+backbone:
+  name: resnet18
+  class_name: torchvision.models.resnet18
+  params:
+    pretrained: True
+fine_tune: False
+freeze_up_to: -1

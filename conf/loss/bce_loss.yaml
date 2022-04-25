@@ -1,0 +1,5 @@
+# @package _group_
+name: bce
+class_name: torch.nn.BCEWithLogitsLoss
+params:
+  class_weight: False
