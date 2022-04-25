@@ -29,7 +29,7 @@ def get_dataset(hparams: DictConfig):
     ):
 
         cur_path = hydra.utils.to_absolute_path(cur_path)
-        cur_dataset = CarModelDataset(
+        cur_dataset = dataset_class(
             csv_path=cur_path, image_folder=image_folder, preprocess=augs
         )
         datasets.append(cur_dataset)
